@@ -1,0 +1,35 @@
+doctype html
+html
+
+  head
+    title Useful Information
+    meta charset="utf-8"
+    script src="./js/common.js"
+    script( src="./js/edit.js" defer )
+
+  body
+
+    #content
+      header
+        h3 Information to be used with <span>your content</span>
+
+      form action="#" method="post"
+        fieldset
+          legend Enter Information
+          ul
+            li: label
+              | Name:
+              input( name="fullname" type="text" placeholder="Your fullname" required autofocus )
+            li: label
+              | Title:
+              input( name="title" type="text" placeholder="Your title" required )
+            li: label
+              | Color:
+              select name="color"
+                option value="white" White
+                option value="blue" Commie
+                option value="red" Republican
+            li: label
+              | Email:
+              input( name="mail" type="email" placeholder="address@where.com" required )
+            li: input type="submit"

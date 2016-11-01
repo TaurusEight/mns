@@ -1,0 +1,9 @@
+
+Time-stamp: <2016-10-26 17:08:04 dmendyke>
+
+Simplified newsletter service software.
+
+  * No database - data stored on users PC
+  * No customers - Consumers only!
+  * Newsletters are free for anyone
+  * Donations - target must be reached before next newsletter posted

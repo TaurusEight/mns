@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export REQUEST_METHOD="POST"
+export SERVER_PROTOCOL="HTTP/1.1"
+#export QUERY_STRING="mail=onextwo.com&cid=tiger"
+echo "cid=tiger&mail=abc" | ./mns.app
