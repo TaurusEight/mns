@@ -1,4 +1,7 @@
 
+# Time-stamp: <2016-11-01 19:04:42 daniel>
+# Makefile for proof of concept project MNS
+
 %.html : %.slim ; slimrb $^ > $@
 %.js : %.es6 ; cp $^ $@
 %.app : %.go ; gccgo -o $@ $^
